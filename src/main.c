@@ -22,8 +22,8 @@ int main(int argc, char *argv[]){
 		r = _mul(atof(a), atof(b));
 		printf("%lf",r);
 	}
-	else if (strcmp(op, "div") == 0) {
-		r = _div(atof(a), atof(b));
+	else if (strcmp(op, "carre") == 0) {
+		r = _carre(atof(a));
 		printf("%lf",r);
 	}
 	else {printf("Erreur de parametres");}
