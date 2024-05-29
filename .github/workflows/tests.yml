@@ -2,7 +2,7 @@ name: Automatisation des tests
 on: push
 jobs:
   Compilation:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
       - name: Compilation
         run: |
